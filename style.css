@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.CV{
+    width: 1400px;
+    margin: 100px auto;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+.header{
+    display: flex;
+    height: 825px;
+}
+.information_about_me{
+    background-color: #74DDA8;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myphoto_links{
+    background-color: #76B2D6;
+    width: 50%;
+}
+.my_photo{
+    background-color: #74DDA8;
+    width: 440px;
+    height: 250px;
+    margin-top: 440px;
+    margin-left: 190px;
+    border-radius: 35px;
+}
+.rectangle_1{
+    width: 90px;
+    height: 600px;
+    background-color: #90b9d3;
+    position: relative;
+    bottom: 690px;
+    left: 50px;
+}
+.rectangle_2{
+    width: 90px;
+    height: 300px;
+    background-color: #90b9d3;
+    position: relative;
+    bottom: 1290px;
+    left: 78%;
+}
+.my_photo img{
+    width: 430px;
+    position: relative;
+    bottom: 280px;
+}
+.insta img{
+    width: 100px;
+    position: relative;
+    bottom: 1050px;
+    left: 45px;
+}
+.telegram img{
+    width: 100px;
+    position: relative;
+    bottom: 1350px;
+    left: 435px;
+
+}
+.name_of_CV{
+    position: relative;
+    font-size: 36px;
+    bottom: 900px;
+    left: 450px;
+    transform: rotate(-20deg);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.content{
+    margin-bottom: 20px;
+}
+.article{
+    width: 440px;
+    height: 640px;
+    background-color: #76B2D6;
+    padding-top: 50px;
+    padding-left: 120px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 35px;
+    border-radius: 20px;
+}
+.article h1{
+    margin-bottom: 55px;
+    font-size: 36px;
+}
+.my_prtfolio{
+    margin-top: 50px;
+}
+.my_prtfolio a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 70px;
+    background-color: #ffdf9598;
+    font-size: 24px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.my_prtfolio a:hover{
+    background-color: #ffdf95;
+}
+.content h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+}
+.examples{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.example{
+    height: 300px;
+    width: 530px;
+    margin-top: 110px;
+    background-color: #74DDA8;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    padding-top: 20px;
+}
+.example h3{
+    margin-bottom: 100px;
+}
+.example a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 70px;
+    background-color: #ffdf9598;
+    border-radius: 20px;
+    transition: 1s;
+}
+.example a:hover{
+    background-color: #ffdf95;
+}
+.footer{
+    padding-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    height: 100px;
+    background-color: gray;
+}
